@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header-content{
+    background: #000;
+}
+
+.first-nav-content{
+    color: #ffffff;
+    font-size: 1em;
+    margin: 0 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.header-second-nav{
+    background: lightgray;
+    margin-top: -18px;
+    padding-bottom: 3px;
+}
+
+
+.nav-content{
+    text-decoration: none;
+    text-align: center;
+    display: inline;
+    margin: 5px;
+    padding: 10px;
+    color: #000;
+    font-size: 0.9em;
+}
+
+.nav-logo{
+    width: 150px;
+    position: relative;
+    top: -50px;
+    left: -20px;
+}
+
+.third-nav-content{
+    display: inline;
+    text-decoration: none;
+    padding: 15px;
+    position: relative;
+    left: 10%;
+    font-size: 1.2em;
+    color: #000;
+    font-weight: 500;
+}
+
+.unordered-list-third-header{
+   margin-top: -150px;
+}
+
+.third-nav-content-icon{
+ position: relative;
+ left: 21%;
+ font-size: 1.4em;
+}
+
+.search-content .search-body{
+    width: 100%;
+}
+.search-content-input{
+    width: 96%;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    background: lightgray;
+    margin: 5px 1.2%;
+    text-indent: 50px;
+}
+
+.search-content-icon{
+    position: relative;
+    left: 55px;
+}
+
+.search-suggestion-item{
+    display: none;
+    position: relative;
+    left: 96px;
+    top: -23px;
+}
+
+.search-suggestion-item-active{
+    display: inline;
+    position: relative;
+    top: -61px;
+    left: 155px;
+}
+
+
+.search-suggestion-list{
+    width: 50%;
+}
+
+.search-suggestion{
+    position: relative;
+    left: 80px;
+    top: -38px;
+    width: 50%;
+}
+
+.carousel-inner{
+    margin-top: -40px;
+}
+
+.carousel-images{
+    height: 500px;
+}
+
+.carousel-caption-heading{
+    color: black;
+    padding: 5px;
+   
+}
+.carousel-caption-button{
+    background: black;
+    color: #ffffff;
+    width: 120px;
+    height: 40px;
+    font-size: 0.9em;
+    border: none;
+}
+
+.carousel-caption-heading-paragragh{
+    font-size: 1em;
+    font-weight: 600;
+}
