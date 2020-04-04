@@ -12,15 +12,19 @@
 <body>
     <header>
         <!------NavBar Design------>
+       
         <div class="header">
             <div class="header-content">
                 <p  class="first-nav-content">
-                   <pre class="first-nav-content"> For the safety of our co-workers and customers, IKEA US is temporarily closed for in-store shopping.
-                    Online shopping is available. Please click here for more information.</pre>
+                   For the safety of our co-workers and customers, IKEA US is temporarily closed for in-store shopping.  <br>
+                    Online shopping is available. Please click here for more information.
+                    <p id="cancel">+</p>
                 </p>
+                
             </div>
-            <div class="header-second-nav">
+            <div class="header-second-nav hide">
                 <ul class="nav-unordered-list">
+                    
                     <a href=""><li class="nav-content">Customer Service</li></a>
                     <a href=""><li class="nav-content"> Bobs Family</li></a>
                     <a href=""><li class="nav-content">Bobs for Business</li></a>
@@ -30,7 +34,7 @@
                     <a href=""><li class="nav-content">Credit Card</li></a>
                 </ul>
             </div>
-            <div class="header-third-nav">
+            <div class="header-third-nav hide">
                 <a href="index.html"><img class="nav-logo" src="./Images/Logo.png" alt="Welcome to Bobs Furnitures"></a>
                 <ul class="unordered-list-third-header">
                 <a href=""><li class="third-nav-content">Offer</li></a>
@@ -40,13 +44,17 @@
                 <a href=""><li class="third-nav-content">Rooms</li></a>
                 <a href=""><li class="third-nav-content">New Entry</li></a>
                 <a href=""><li class="third-nav-content">Ideas and inspirations</li></a>
-
-                <a href=""><i class="fa fa-user third-nav-content third-nav-content-icon" aria-hidden="true"></i></a>
-                <a href=""><i class="fa fa-shopping-cart third-nav-content third-nav-content-icon" aria-hidden="true"></i></a>
+                   
+            </div>
             </ul>
             </div>
         </div>
-        <!------End of NavBar------->
+        <div class="nav-icon">
+            <i class="fa fa-navicon fa-2x" id="icon"></i>
+            <a href=""><i class="fa fa-user fa-2x third-nav-content third-nav-content-icon" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-shopping-cart fa-2x third-nav-content third-nav-content-icon" aria-hidden="true"></i></a>
+        </div>
+            <!------End of NavBar------->
     </header>
 
     <!---- Main page ------>
@@ -82,7 +90,7 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img class="d-block w-100 carousel-images" src="Images/page 1.png" alt="First slide">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption">
             <h1 class=" carousel-caption-heading">It's time to organize <br>
                 your home office </h1>
             <button class="carousel-caption-button">Shop home office</button>
@@ -91,7 +99,7 @@
       </div>
       <div class="carousel-item">
         <img class="d-block w-100 carousel-images" src="Images/body 4.png" alt="Second slide">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption">
             <h1 class="carousel-caption-heading carousel-caption-active">In the interest of <br>
                 safety, IKEA US <br>
                 locations are <br>
@@ -103,7 +111,7 @@
       </div> 
       <div class="carousel-item">
         <img class="d-block w-100 carousel-images" src="Images/page 2.png" alt="Second slide">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption">
             <h1 class="carousel-caption-heading">Working together to <br>
                 create a safer home. <br></h1>
             <p class=" carousel-caption-heading carousel-caption-heading-paragragh">if you own a chest/dresser that was <br> included in the June 2016 recall <br>
@@ -113,7 +121,7 @@
       </div>
       <div class="carousel-item">
         <img class="d-block w-100 carousel-images" src="Images/body 3.png" alt="Third slide">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption">
             <h1 class="carousel-caption-heading">Home. <br>
                The most important  <br>
                 place in the world <br></h1>
@@ -176,6 +184,7 @@
                 <h2 class="container-inspiration-flex-imagine-heading">Featured <br>
                     Inspirations</h2>
                     <hr class="container-inspiration-flex-hr">
+                    <div class="container-inspiration-checker">
                     <div class="container-inspiration-flex2">
                         <img class="container-inspiration-flex2-image" src="./Images/Untitle5.png" alt="">
                         <p class="container-inspiration-flex2-paragraph">Spring bedroom ideas</p>
@@ -189,12 +198,14 @@
                     <div class="container-inspiration-flex2">
                         <img class="container-inspiration-flex2-image" src="./Images/Untitle7.png" alt="">
                         <p class="container-inspiration-flex2-paragraph">It’s patio season!</p>
-                    </div>
-                    <div class="container-inspiration-flex2 flex2-down">
-                        <a class="container-inspiration-flex2-viewinspiration" href="">View all inspirations ></a>
-                    </div>
+                    </div>    
+                </div> <br><br><br><br>
             </div>
-            
+        </div>
+       
+        </div>
+        <div class="container-flex2-down"> 
+            <a class="container-inspiration-flex2-viewinspiration" href="">View all inspirations ></a>
         </div>
     </div>
 <!------Yet another Flex------>
@@ -250,50 +261,169 @@
 <!------Breif Nothing-------->
 
     <div class="container-partner-1">
+        <div class="upper">
         <div class="container-partner">
-            <img class="container-partner-picture" src="./Images/tea.png" alt="">
-            <div class="container-partner-container container-partner-container1">
+            <img class="container-partner-picture1" src="./Images/tea.png" alt="">
+        </div>
+            <div class="container-partner-container1">
             <p class="container-partner-text">Sign up to get<br> the inside scoop </p>
                 <button class="container-partner-button">Join bobs family</button>
             </div>
-            <div class="container-partner">
+        
+    </div>
+
+            <div class="container-partner1">
                 <img class="container-partner-picture" src="./Images/tea 2.png" alt="">
-                <div class="container-partner-container container-partner-container1">
+                <div class="container-partner-container">
                 <p class="container-partner-text ">Plan your dream <br> kitchen online </p>
                     <button class="container-partner-button">Start plaining</button>
                 </div>
             </div>
-        </div>
+       
+       
+
 </div>
 <!------Breif Nothing-------->
-
+<br><br>
 
 <!------Shopping Ways-------->
 <div class="container-shopping-ways">
+    <div class="container-shopping-heading">
+        <h2 class="shopping-heading">Many ways to shop and receive your products quickly</h2>
+    </div>
     <div class="container-shopping-ways-flex">
         <div class="container-shopping-ways-pics1">
-            
+           <img class="shopping-picture" src="Images/02.jpg" alt="">
+           <a href=""><p class="shopping-link">Delivery</p></a>
         </div>
-        <div class="container-shopping-ways-pics2">
-            
-        </div>
-        <div class="container-shopping-ways-pics3">
-            
-        </div>
-        <div class="container-shopping-ways-pics4">
-            
-        </div>
-        <div class="container-shopping-ways-pics">
-            
-        </div>
-        <div class="container-shopping-ways-pics">
-            
-        </div>
+        <div class="container-shopping-ways-pics1">
+            <img class="shopping-picture" src="Images/02.jpg" alt="">
+            <a href=""><p class="shopping-link">Task rabbit assembly</p></a>
+         </div>
+         <div class="container-shopping-ways-pics1">
+            <img class="shopping-picture" src="Images/06.jpg" alt="">
+            <a href=""><p class="shopping-link">Click and collect</p></a>
+         </div>
+         <div class="container-shopping-ways-pics1">
+            <img class="shopping-picture" src="Images/01.jpg" alt="">
+            <a href=""><p class="shopping-link">Credit card</p></a>
+         </div>
+         <div class="container-shopping-ways-pics1">
+            <img class="shopping-picture" src="Images/03.jpg" alt="">
+            <a href=""><p class="shopping-link">Kitchen Services</p></a>
+         </div>
+         <div class="container-shopping-ways-pics1">
+            <img class="shopping-picture" src="Images/05.jpg" alt="">
+            <a href=""><p class="shopping-link">Online Planning Tools</p></a>
+         </div>
     </div>
+</div>
+
+<div class="button-all-service">
+    <button class="all-service-button">View all services ></button>
 </div>
 
 <!------Shopping Ways-------->
 
+<!--------Few buttons--------->
+<div class="container-buttons">
+    
+        <div class="container-buttons-flex">
+
+        <div class="container-buttons-header">
+            <button class="container-buttons-content">Bobs Gift Registry</button>
+            <a href=""><p class="container-buttons-paragraph minus">Create your registry now</p></a>
+        </div>
+        <div class="container-buttons-header">
+            <button class="container-buttons-content">Bobs Catalog</button>
+            <a href=""><p class="container-buttons-paragraph center">View Catalog</p></a>
+        </div>
+        <div class="container-buttons-header">
+            <button class="container-buttons-content">Secure it</button>
+            <a href=""><p class="container-buttons-paragraph">Get more information</p></a>
+        </div>
+        <div class="container-buttons-header">
+            <button class="container-buttons-content ">Product recall</button>
+            <a href=""><p class="container-buttons-paragraph center">View all recall</p></a>
+        </div>
+    </div>
+</div>
+<!--------Few buttons--------->
+
+<!------------Footer-------------->
+<div class="container-footer">
+    <div class="container-footer-flex">
+        <div class="container-footer-content">
+            <svg class="footer-icon hnf-svg-icon footer__svg-icon footer__svg-icon--leading hnf-svg-icon--200" 
+                focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19,15H10V14h9Zm0-3H10V11h9ZM4,11H5v1H4a2,2,0,0,1-2-2V4A2,2,0,0,1,4,
+                2H15a2,2,0,0,1,2,2V6H16V4a1,1,0,0,0-1-1H4A1,1,0,0,0,3,4v6A1,1,0,0,0,4,11Zm6,0h9v1H10Zm0,3h9v1H10ZM20,8H9a2,2,0,0,0-2,2v6a2,2,0,0,0,2,2h5l5,4V18h1a2,2,0,0,0,
+                2-2V10A2,2,0,0,0,20,8Zm1,8a1,1,0,0,1-1,1H18v2.92L14.35,17H9a1,1,0,0,1-1-1V10A1,1,0,0,1,9,9H20a1,1,0,0,1,1,1Z">
+                </path></svg> 
+                <h4 class="footer-heading">Help</h4>
+                <a href=""><p class="footer-content">Customer Service</p></a>
+                <a href=""><p class="footer-content">FAQ</p></a>
+                <a href=""><p class="footer-content">Contact Us</p></a>
+                <a href=""><p class="footer-content">Product Recalls</p></a>
+                <a href=""><p class="footer-content">Return Policy</p></a>
+                <a href=""><p class="footer-content">Warranties</p></a>
+                <a href=""><p class="footer-content">Feedback</p></a>
+            </div>
+
+            <div class="container-footer-content">  
+                <svg class="footer-icon footer-iconhnf-svg-icon footer__svg-icon footer__svg-icon--leading hnf-svg-icon--200" 
+            focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M2,6V19H21V6Zm9,12H7V13h4Zm5,0H12V13h4Zm1,0V12H6v6H3V7H20V18Z"></path>
+        </svg><h4 class="footer-heading">Shop and learn</h4>
+                <a href=""><p class="footer-content">Find a Location</p></a>
+                <a href=""><p class="footer-content">Bobs Services</p></a>
+                <a href=""><p class="footer-content">Bobs Catalog</p></a>
+                <a href=""><p class="footer-content">Bobs Brochures</p></a>
+                <a href=""><p class="footer-content">Bobs Family</p></a>
+                <a href=""><p class="footer-content">Bobs Planning Tools</p></a>
+                <a href=""><p class="footer-content">Buying Guilds</p></a>
+                <a href=""><p class="footer-content">Gift Cards</p></a>
+                <a href=""><p class="footer-content">Gift Registry</p></a>
+                <a href=""><p class="footer-content">Bobs Credit Card Management</p></a>
+            </div>
+
+            <div class="container-footer-content">
+                <svg class="footer-icon hnf-svg-icon footer__svg-icon footer__svg-icon--leading hnf-svg-icon--200" focusable="false" xmlns="http://www.w3.org/2000/svg" 
+                viewBox="0 0 24 24"><path d="M19,5H14.15A2.88,2.88,0,0,0,12,6,2.88,2.88,0,0,0,9.86,5H2V19h8.57A1.28,1.28,0,0,1,12,20s0,0,0,0l0,0a1.26,1.26,0,0,1,1.41-1H22V8ZM11.5,18.09a2.
+                    82,2.82,0,0,0-.71-.09H3V6h7.07A1.43,1.43,0,0,1,11.5,7.43ZM21,18H13.22a3,3,0,0,0-.72.09V7.43A1.43,1.43,0,0,1,13.93,6H18V9h3Z"></path></svg>
+                <h4 class="footer-heading">About Bobs</h4>
+                <a href=""><p class="footer-content">This is Bobs</p></a>
+                <a href=""><p class="footer-content">Careers</p></a>
+                <a href=""><p class="footer-content">Newroom</p></a>
+                <a href=""><p class="footer-content">Democratic Design</p></a>
+                <a href=""><p class="footer-content">A sustainable Everyday</p></a>
+                <a href=""><p class="footer-content">Bobs Foundation</p></a>
+                <a href=""><p class="footer-content">Creating Safer Home Together</p></a>
+            </div>
+
+            <div class="container-footer-content">
+                <svg class="footer-icon hnf-svg-icon footer__svg-icon footer__svg-icon--leading hnf-svg-icon--200" focusable="false" xmlns="http://www.w3.org/2000/svg"
+                 viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 19a9 9 0 1 1 9-9 9 9 0 0 1-9 9z">
+                 </path><path d="M11 10h2v8h-2z"></path><circle cx="12" cy="7.75" r="1.25"></circle></svg>
+                <h4 class="footer-heading">Legal Disclaimers</h4>
+                <a href=""><p class="footer-content">Privacy & Security</p></a>
+                <a href=""><p class="footer-content">Terms and Conditions</p></a>
+                <a href=""><p class="footer-content">Bobs Children's Products Registration</p></a>
+                <a href=""><p class="footer-content">Return Policy</p></a>
+                <a href=""><p class="footer-content">Bobs SMALAND Privacy notice</p></a>
+            </div>
+        </div>
+        <div class="footer-socials">
+            <i class="social-icon fa fa-facebook facebook" id="fb"></i><span class="footer-content">Facebook</span>
+                <i class="social-icon fa fa-twitter twitter"></i><span class="footer-content">Twitter</span>
+                <i class="social-icon fa fa-google-plus googleplus"></i><span class="footer-content">Google</span>
+                <i class="social-icon fa fa-linkedin linkedin"></i><span class="footer-content">Linkedin</span>
+                <i class="social-icon fa fa-youtube-play"></i><span class="footer-content">Youtube</span>
+                <i class="social-icon fa fa-pinterest"></i><span class="footer-content">Pinterest</span>
+        </div>
+    </div>
+            
+</div>
+<!------------Footer-------------->
 
 
 
