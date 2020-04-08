@@ -199,6 +199,10 @@
     margin: 0 auto;
 }
 
+.mobile{
+    display: none;
+}
+
 .container-inspiration-heading {
     color: black;
     text-align: center;
@@ -450,11 +454,16 @@ margin: 20px;
 
 .container-buttons-paragraph{
     color: #333333;
-    margin-left: 20px;
+    text-align: left;
+    
 }
 .center{
-    margin-left: 50px;
+   margin-left: 40px;
 }
+
+.center1{
+    margin-left: 20px;
+ }
 
 .minus{
     margin-left: 5px;
@@ -524,8 +533,9 @@ color: #ffffff;
     text-align: center;
 }
 
-@media (max-width:600px){
+@media only screen and (max-width: 600px){
 
+    
 
     .first-nav-content{
         color: #ffffff;
@@ -573,26 +583,34 @@ color: #ffffff;
     position: relative;
     left:30px;
     top: 50px;
+    color: black;
    }
 
    .search-content-icon{
        position: relative;
        top: 40px;
    }
+
+   #smaller{
+       font-size: 20px;
+   }
    .carousel-caption-heading{
     padding: 0;
+    font-size: 20px;
    }
    .container-header{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    flex-basis: 50%;
    }
    .containerflex-content{
        width: 50%;
+       
    }
    .containerflex-content-image{
        width: 100%;
+       height: 200px;
+
    }
    .containerflex-paragraph{
        font-size: 20px;
@@ -654,9 +672,6 @@ color: #ffffff;
     width: 100%;
 }
 
-
-
-
     .container-partner-picture1, .container-partner-picture{
         width: 50%;
         height: 250px;
@@ -681,28 +696,65 @@ color: #ffffff;
 
     .container-shopping-ways-flex{
         flex-wrap: wrap;
-        flex-basis: 30%;
+        flex-basis: 30%; 
+        justify-content: center;
+    }
 
+    .shopping-picture{
+        width: 29vw;
+        height: 28vw;
+    }
+
+    .shopping-link{
+        margin-top: 8px;
     }
 
     .container-shopping-ways-pics1{
-        flex-basis: 30%;
-        padding: 20px;
+        flex-basis: 20%;
+        padding: 5px;
     }
 
     .container-buttons-flex{
         flex-wrap: wrap;
-        justify-content: flex-start;
-        flex-basis: 50%;
+        justify-content: center;
     }
+.container-buttons-paragraph{
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
 
     .container-buttons-header{
-        flex-basis: 50%;
-        padding: 10px;
+        flex-basis: 20%;
         margin-left: 0;
+        padding: 5px;
+
     }
-   
-   
+
+    .container-buttons-content{
+        width: 150px;
+        font-size: 14px;
+    }
+
+    .container-footer-flex{
+        flex-direction: column;
+        
+    }
+
+    .container-footer-content{
+        margin: 0px;
+        flex-basis: 100%;
+        border: 1px solid #ffffff;
+    }
+
+    .footer-content{
+        display: none;
+    }
+
+    .footer-icon{
+        
+    }
     
 }
 
