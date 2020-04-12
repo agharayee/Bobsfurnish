@@ -3,145 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boboyor Furniture</title>
+    <link rel="stylesheet" href="./Css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="./Css/main.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Boboyor Furnitures</title>
 </head>
 <body>
+    <!-- Header Div -->
     <header>
-        <!------NavBar Design------>
-       
-        <div class="header">
-            <div class="header-content">
-                <p  class="first-nav-content">
-                   For the safety of our co-workers and customers, IKEA US is temporarily closed for in-store shopping.  <br>
-                    Online shopping is available. Please click here for more information.
-                    <p id="cancel">+</p>
-                </p>
-                
-            </div>
-            <div class="header-second-nav hide">
-                <ul class="nav-unordered-list">
-                    
-                    <a href=""><li class="nav-content">Customer Service</li></a>
-                    <a href=""><li class="nav-content"> Bobs Family</li></a>
-                    <a href=""><li class="nav-content">Bobs for Business</li></a>
-                    <a href=""><li class="nav-content">Bobs Planing Tools</li></a>
-                    <a href=""><li class="nav-content">Track my Order</li></a>
-                    <a href=""><li class="nav-content">Find a Location</li></a>
-                    <a href=""><li class="nav-content">Credit Card</li></a>
-                </ul>
-            </div>
-            <div class="header-third-nav hide">
-                <a href="index.html"><img class="nav-logo" src="./Images/Logo.png" alt="Welcome to Bobs Furnitures"></a>
-                <ul class="unordered-list-third-header">
-                <a href=""><li class="third-nav-content">Offer</li></a>
-                <a href=""><li class="third-nav-content">New Lower Prices</li></a>
-                <a href=""><li class="third-nav-content">Last Chance</li></a>
-                <a href=""><li class="third-nav-content">Products</li></a>
-                <a href=""><li class="third-nav-content">Rooms</li></a>
-                <a href=""><li class="third-nav-content">New Entry</li></a>
-                <a href=""><li class="third-nav-content">Ideas and inspirations</li></a>
-            </ul> 
-            </div>
-            
-            </div>
+        <div class="header-content" id="header-content">
+            <p  class="first-nav-content">
+               For the safety of our co-workers and customers, Bobsfurnitures is temporarily closed for in-store shopping. <br>
+                Online shopping is available. Please click here for more information. 
+            </p>
+            <p id="cancel">+</p>
         </div>
+
+        <div class="header-second-nav hide">
+            <ul class="nav-unordered-list">
+                
+                <a href=""><li class="nav-content">Customer Service</li></a>
+                <a href=""><li class="nav-content"> Bobs Family</li></a>
+                <a href=""><li class="nav-content">Bobs for Business</li></a>
+                <a href=""><li class="nav-content">Bobs Planing Tools</li></a>
+                <a href=""><li class="nav-content">Track my Order</li></a>
+                <a href=""><li class="nav-content">Find a Location</li></a>
+                <a href=""><li class="nav-content">Credit Card</li></a>
+            </ul>
+        </div>
+
+        <div class="logo">
+            <a href="index.html"><img class="nav-logo" src="../Images/Logo.png" alt="Welcome to Bobs Furnitures"></a>
+        </div>
+
+        <div class="header-third-nav">
+            <ul class="unordered-list-third-header">
+            <a href=""><li class="third-nav-content">Offer</li></a>
+            <a href=""><li class="third-nav-content">New Lower Prices</li></a>
+            <a href=""><li class="third-nav-content">Last Chance</li></a>
+            <a href=""><li class="third-nav-content">Products</li></a>
+            <a href=""><li class="third-nav-content">Rooms</li></a>
+            <a href=""><li class="third-nav-content">New Entry</li></a>
+            <a href=""><li class="third-nav-content">Ideas and inspirations</li></a>
+        </ul> 
+        </div>
+
         <div class="nav-icon">
             <i class="fa fa-navicon fa-2x" id="icon"></i>
             <i class="fa fa-user fa-2x third-nav-content third-nav-content-icon" aria-hidden="true"></i>
             <i class="fa fa-shopping-cart fa-2x third-nav-content third-nav-content-icon" aria-hidden="true"></i>
         </div>
-            <!------End of NavBar------->
     </header>
+    <!-- End Header Div -->
 
-    <!---- Main page ------>
-<div class="search-body">
-    <div class="search-content">
-        <i class="fa fa-search search-content-icon" aria-hidden="true"></i>
-        <input class="search-content-input" type="text">
-        <span class="search-suggestion">
-            Search for
-        </span>
-        <ul class="search-suggestion-list">
-            <li class="search-suggestion-item search-suggestion-item-active">
-                Products
-            </li>
-            <li class="search-suggestion-item"> 
-                Category
-            </li>
-            <li class="search-suggestion-item"> 
-                Content
-            </li>
-        </ul>
-    </div>
-</div>
-
-<!------Image slider----->
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block w-100 carousel-images" src="Images/page 1.png" alt="First slide">
-        <div class="carousel-caption">
-            <h1 class=" carousel-caption-heading">It's time to organize <br>
-                your home office </h1>
-            <button class="carousel-caption-button">Shop home office</button>
-
+    <!-- Search Textbox -->
+    <div class="search-body">
+        <div class="search-content">
+            <i class="fa fa-search search-content-icon" aria-hidden="true"></i>
+            <input class="search-content-input" type="text" placeholder="Search for Product">
         </div>
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100 carousel-images" src="Images/body 4.png" alt="Second slide">
-        <div class="carousel-caption">
-            <h1 class="carousel-caption-heading carousel-caption-active" id="smaller">In the interest of <br>
-                safety, IKEA US <br>
-                locations are <br>
-                temporarily closed <br>
-                for in-store shopping.</h1>
-            <p class="carousel-caption-heading carousel-caption-heading-paragragh  ">Online shopping is available.</p>
-            <button class="carousel-caption-button"  id="carousel-caption-button ">Learn more</button>
-            </div>
-      </div> 
-      <div class="carousel-item">
-        <img class="d-block w-100 carousel-images" src="Images/page 2.png" alt="Second slide">
-        <div class="carousel-caption">
-            <h1 class="carousel-caption-heading">Working together to <br>
-                create a safer home. <br></h1>
-            <p class=" carousel-caption-heading carousel-caption-heading-paragragh">if you own a chest/dresser that was <br> included in the June 2016 recall <br>
-            or the KULLEN 3 drawer recall, <br> find out how you can participate</p>
-            <button class="carousel-caption-button">Learn more</button>
-      </div> 
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100 carousel-images" src="Images/body 3.png" alt="Third slide">
-        <div class="carousel-caption">
-            <h1 class="carousel-caption-heading">Home. <br>
-               The most important  <br>
-                place in the world <br></h1>
-            <p class="carousel-caption-heading carousel-caption-heading-paragragh">We can help you make the most <br> of your time together at home</p>
-            <button class="carousel-caption-button">Get tips</button>
-      </div> 
-      </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-</div>
-<!------ End Image slider ----->
+    <!--End of Search Textbox  -->
 
-<!--------Few Flex go showcase-------->
+    <!-- Image Slider  -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 carousel-images" src="../Images/page 1.png" alt="First slide">
+            <div class="carousel-caption">
+                <h1 class=" carousel-caption-heading">It's time to organize <br>
+                    your home office </h1>
+                <button class="carousel-caption-button">Shop home office</button>
+    
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 carousel-images" src="../Images/body 4.png" alt="Second slide">
+            <div class="carousel-caption">
+                <h1 class="carousel-caption-heading carousel-caption-active" id="smaller">In the interest of <br>
+                    safety, IKEA US <br>
+                    locations are <br>
+                    temporarily closed <br>
+                    for in-store shopping.</h1>
+                <p class="carousel-caption-heading carousel-caption-heading-paragragh  ">Online shopping is available.</p>
+                <button class="carousel-caption-button"  id="carousel-caption-button ">Learn more</button>
+                </div>
+          </div> 
+          <div class="carousel-item">
+            <img class="d-block w-100 carousel-images" src="../Images/page 2.png" alt="Third slide">
+            <div class="carousel-caption">
+                <h1 class="carousel-caption-heading">Working together to <br>
+                    create a safer home. <br></h1>
+                <p class=" carousel-caption-heading carousel-caption-heading-paragragh">if you own a chest/dresser that was <br> included in the June 2016 recall <br>
+                or the KULLEN 3 drawer recall, <br> find out how you can participate</p>
+                <button class="carousel-caption-button">Learn more</button>
+          </div> 
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 carousel-images" src="../Images/body 3.png" alt="Fourth slide">
+            <div class="carousel-caption">
+                <h1 class="carousel-caption-heading">Home. <br>
+                   The most important  <br>
+                    place in the world <br></h1>
+                <p class="carousel-caption-heading carousel-caption-heading-paragragh">We can help you make the most <br> of your time together at home</p>
+                <button class="carousel-caption-button">Get tips</button>
+          </div> 
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- End of Image slider -->
+
+    <!--------Few Flex go showcase-------->
 <div class="containerflex">
     <div class="container-header">
     <div class="containerflex-content">
@@ -160,7 +147,7 @@
         <img class="containerflex-content-image" src="./Images/flex4.png" alt="">
         <a class="alink" href=""><p class="containerflex-paragraph">Bedroom Storage</p></a>
     </div>
-    <div class="containerflex-content">
+    <div class="containerflex-content .containerflex-content-center">
         <img class="containerflex-content-image" src="./Images/flex5.png" alt="">
         <a class="alink" href=""><p class="containerflex-paragraph">Learn more about Bobsfurnitures <br> chess dress/dresser recall</p></a>
     </div>
@@ -209,6 +196,7 @@
     </div>
 </div>
 <!------Yet another Flex------>
+
 
 <!---------Shop By Category------------>
 <div class="container-shop-by-category">
@@ -261,59 +249,58 @@
 <!------Breif Nothing-------->
 
 <div class="container-partner-1">
-    <div class="upper">
+
     <div class="container-partner">
-        <img class="container-partner-picture1" src="./Images/tea.png" alt="">
+        <img class="container-partner-picture" src="./Images/tea.png" alt="">
     </div>
-        <div class="container-partner-container1">
+        <div class="container-partner-container">
         <p class="container-partner-text">Sign up to get<br> the inside scoop </p>
             <button class="container-partner-button">Join bobs family</button>
         </div>
     
-</div>
+
+    
+
 
         <div class="container-partner1">
             <img class="container-partner-picture" src="./Images/tea 2.png" alt="">
-            <div class="container-partner-container">
+        </div>
+            <div class="container-partner-container1">
             <p class="container-partner-text ">Plan your dream <br> kitchen online </p>
                 <button class="container-partner-button">Start plaining</button>
             </div>
         </div>
-   
-   
-
-</div>
 <!------Breif Nothing-------->
 <br><br>
 
-<!------Shopping Ways-------->
+        <!------Shopping Ways-------->
 <div class="container-shopping-ways">
     <div class="container-shopping-heading">
         <h2 class="shopping-heading">Many ways to shop and receive your products quickly</h2>
     </div>
     <div class="container-shopping-ways-flex">
         <div class="container-shopping-ways-pics1">
-           <img class="shopping-picture" src="Images/02.jpg" alt="">
+           <img class="shopping-picture" src="./Images/02.jpg" alt="">
            <a href=""><p class="shopping-link">Delivery</p></a>
         </div>
         <div class="container-shopping-ways-pics1">
-            <img class="shopping-picture" src="Images/02.jpg" alt="">
+            <img class="shopping-picture" src="./Images/02.jpg" alt="">
             <a href=""><p class="shopping-link">Task rabbit assembly</p></a>
          </div>
          <div class="container-shopping-ways-pics1">
-            <img class="shopping-picture" src="Images/06.jpg" alt="">
+            <img class="shopping-picture" src="./Images/06.jpg" alt="">
             <a href=""><p class="shopping-link">Click and collect</p></a>
          </div>
          <div class="container-shopping-ways-pics1">
-            <img class="shopping-picture" src="Images/01.jpg" alt="">
+            <img class="shopping-picture" src="./Images/01.jpg" alt="">
             <a href=""><p class="shopping-link">Credit card</p></a>
          </div>
          <div class="container-shopping-ways-pics1">
-            <img class="shopping-picture" src="Images/03.jpg" alt="">
+            <img class="shopping-picture" src="./Images/03.jpg" alt="">
             <a href=""><p class="shopping-link">Kitchen Services</p></a>
          </div>
          <div class="container-shopping-ways-pics1">
-            <img class="shopping-picture" src="Images/05.jpg" alt="">
+            <img class="shopping-picture" src="./Images/05.jpg" alt="">
             <a href=""><p class="shopping-link">Online Planning Tools</p></a>
          </div>
     </div>
@@ -350,7 +337,6 @@
 </div>
 <!--------Few buttons--------->
 
-
 <!------------Footer-------------->
 <div class="container-footer">
     <div class="container-footer-flex">
@@ -360,7 +346,7 @@
                 2H15a2,2,0,0,1,2,2V6H16V4a1,1,0,0,0-1-1H4A1,1,0,0,0,3,4v6A1,1,0,0,0,4,11Zm6,0h9v1H10Zm0,3h9v1H10ZM20,8H9a2,2,0,0,0-2,2v6a2,2,0,0,0,2,2h5l5,4V18h1a2,2,0,0,0,
                 2-2V10A2,2,0,0,0,20,8Zm1,8a1,1,0,0,1-1,1H18v2.92L14.35,17H9a1,1,0,0,1-1-1V10A1,1,0,0,1,9,9H20a1,1,0,0,1,1,1Z">
                 </path></svg> 
-                <h4 class="footer-heading">Help</h4> <p class="mobile">+</p>
+                <h4 class="footer-heading move">Help</h4> <p class="mobile">+</p>
                 <a href=""><p class="footer-content">Customer Service</p></a>
                 <a href=""><p class="footer-content">FAQ</p></a>
                 <a href=""><p class="footer-content">Contact Us</p></a>
@@ -368,6 +354,7 @@
                 <a href=""><p class="footer-content">Return Policy</p></a>
                 <a href=""><p class="footer-content">Warranties</p></a>
                 <a href=""><p class="footer-content">Feedback</p></a>
+                <p class="remove">+</p>
             </div>
 
             <div class="container-footer-content">  
@@ -385,6 +372,7 @@
                 <a href=""><p class="footer-content">Gift Cards</p></a>
                 <a href=""><p class="footer-content">Gift Registry</p></a>
                 <a href=""><p class="footer-content">Bobs Credit Card Management</p></a>
+                <p class="remove">+</p>
             </div>
 
             <div class="container-footer-content">
@@ -399,6 +387,7 @@
                 <a href=""><p class="footer-content">A sustainable Everyday</p></a>
                 <a href=""><p class="footer-content">Bobs Foundation</p></a>
                 <a href=""><p class="footer-content">Creating Safer Home Together</p></a>
+                <p class="remove">+</p>
             </div>
 
             <div class="container-footer-content">
@@ -411,15 +400,16 @@
                 <a href=""><p class="footer-content">Bobs Children's Products Registration</p></a>
                 <a href=""><p class="footer-content">Return Policy</p></a>
                 <a href=""><p class="footer-content">Bobs SMALAND Privacy notice</p></a>
+                <p class="remove">+</p>
             </div>
         </div>
         <div class="footer-socials">
-            <i class="social-icon fa fa-facebook facebook" id="fb"></i><span class="footer-content">Facebook</span>
-                <i class="social-icon fa fa-twitter twitter"></i><span class="footer-content">Twitter</span>
-                <i class="social-icon fa fa-google-plus googleplus"></i><span class="footer-content">Google</span>
-                <i class="social-icon fa fa-linkedin linkedin"></i><span class="footer-content">Linkedin</span>
-                <i class="social-icon fa fa-youtube-play"></i><span class="footer-content">Youtube</span>
-                <i class="social-icon fa fa-pinterest"></i><span class="footer-content">Pinterest</span>
+            <i class="social-icon fa fa-facebook facebook" id="fb"></i><span class="footer-content po">Facebook</span>
+                <i class="social-icon fa fa-twitter twitter"></i><span class="footer-content po">Twitter</span>
+                <i class="social-icon fa fa-google-plus googleplus"></i><span class="footer-content po">Google</span>
+                <i class="social-icon fa fa-linkedin linkedin"></i><span class="footer-content po">Linkedin</span>
+                <i class="social-icon fa fa-youtube-play"></i><span class="footer-content po">Youtube</span>
+                <i class="social-icon fa fa-pinterest"></i><span class="footer-content po">Pinterest</span>
         </div>
     </div>
             
@@ -428,17 +418,12 @@
 
 
 
-
-
-
-
-
-
+</body>
+<script src="./Js/main.js"></script>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
 
 
 </html>
