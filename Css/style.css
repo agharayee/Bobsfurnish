@@ -542,7 +542,7 @@ padding: 0;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        display: none;
+        
     }
 
     .header-second-nav li{
@@ -557,7 +557,7 @@ padding: 0;
         align-items: center;
         display: flex;
         flex-direction: column;
-         display: none; 
+         
 
     }
     
